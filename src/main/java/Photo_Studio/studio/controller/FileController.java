@@ -118,7 +118,8 @@ public class FileController {
     }
 
     @CrossOrigin(
-            origins = "http://localhost:4200",
+//            origins = "http://localhost:4200",
+            origins = "https://photo-studio-ui.vercel.app",
             allowCredentials = "true",
             exposedHeaders = "Content-Disposition"
     )
